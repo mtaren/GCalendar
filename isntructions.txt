@@ -1,0 +1,32 @@
+--------------Installation instructions--------------------
+More at https://github.com/insanum/gcalcli
+
+download easy install
+https://pypi.python.org/pypi/setuptools/0.9.7#installation-instructions
+run ez_setup.py
+go to easy_install directory(if not in your current path)
+on command line run
+easy_install.py --upgrade google-api-python-client
+this installs google api libriries
+
+downlaod dateutil http://labix.org/python-dateutil
+download tar 
+run setup.py install 
+get gflags (for oauth i guess)
+https://code.google.com/p/python-gflags/
+run setup.py install
+
+--------------------------------------------------
+NOTES:
+change MAINCALANDAR to somthing.. doesnt really matter actually anymore
+change CALANDAR to a list of calandars that you want monitored
+
+change 'archive' to a calandar that gcali will put old events on. has to be one that isnt in calandars
+
+------------------------------------------------
+ new notes:
+
+pip install python-gflags
+pip install python-dateutil
+pip install oauth2client==1.4.12
+
